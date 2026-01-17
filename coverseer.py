@@ -10,7 +10,7 @@ from ollama_call import ollama_call
 # Configuration
 CHECK_INTERVAL_SECONDS = 30
 MAX_OUTPUT_LINES = 100
-OLLAMA_MODEL = "gemma3:12b"
+OLLAMA_MODEL = "gemma3:4b"
 
 logging.basicConfig(
     level=logging.INFO,
