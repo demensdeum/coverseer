@@ -13,6 +13,7 @@
 
 - Python 3.12+
 - [Ollama](https://ollama.com/) running locally.
+- **`gemma3:4b-it-qat`** model pulled in Ollama (`ollama pull gemma3:4b-it-qat`).
 - Python packages: `requests`, `ollama-call`.
 
 ## Usage
