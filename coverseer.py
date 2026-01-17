@@ -8,9 +8,9 @@ from typing import List, Optional
 from ollama_call import ollama_call
 
 # Configuration
-CHECK_INTERVAL_SECONDS = 30
+CHECK_INTERVAL_SECONDS = 5
 MAX_OUTPUT_LINES = 100
-OLLAMA_MODEL = "gemma3:4b"
+OLLAMA_MODEL = "gemma3:4b-it-qat"
 
 logging.basicConfig(
     level=logging.INFO,
